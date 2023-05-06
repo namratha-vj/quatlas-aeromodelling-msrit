@@ -56,48 +56,67 @@ const faqs = [
   ],
 ]
 
+const aerodesign2018 = [
+  'Ranked 7th in the flight rounds, with the first ever successful flight round in the history of the team.',
+  'Total payload lifted - 7.25kgs / 16lbs, highest in Asia for the third round.',
+  'Ranked 10th in the Oral Presentation.',
+  'Bonus points in presentation for innovative fuselage design.',
+]
+const aerodesign2017 = [
+  'Ranked 12th in the competition.',
+  'Achieved second position in Asia.',
+  'Implemented an elliptical wing for better performance.',
+]
+
 export function Faqs() {
   return (
     <section
       id="faqs"
       aria-labelledby="faqs-title"
-      className="border-t border-gray-200 py-20 sm:py-32"
+      className="bg-primary py-5 sm:py-8"
     >
       <Container>
-        <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2
-            id="faqs-title"
-            className="text-3xl font-medium tracking-tight text-gray-900"
-          >
-            Frequently asked questions
+        <div className="max-w-4xl lg:mx-0">
+          <h2 className="text-3xl font-medium tracking-tight text-gray-50">
+            SAE Aerodesign 2018
           </h2>
-          <p className="mt-2 text-lg text-gray-600">
-            If you have anything else you want to ask,{' '}
-            <Link
-              href="mailto:info@example.com"
-              className="text-gray-900 underline"
-            >
-              reach out to us
-            </Link>
-            .
+          <p className="text-md mt-2 text-gray-100">
+            The team consisted of 14 members from the branches of mechanical and
+            electronics engineering. The aircraft was designed and built from
+            scratch by the team members without any external guidance. The
+            competiton was held at Van Nuys,CA,USA.
           </p>
         </div>
         <ul
           role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 sm:mt-20 lg:max-w-none lg:grid-cols-3"
+          className="mt-5 grid max-w-2xl grid-cols-1 gap-4 sm:mt-10"
         >
-          {faqs.map((column, columnIndex) => (
-            <li key={columnIndex}>
-              <ul role="list" className="space-y-10">
-                {column.map((faq, faqIndex) => (
-                  <li key={faqIndex}>
-                    <h3 className="text-lg font-semibold leading-6 text-gray-900">
-                      {faq.question}
-                    </h3>
-                    <p className="mt-4 text-sm text-gray-700">{faq.answer}</p>
-                  </li>
-                ))}
-              </ul>
+          {aerodesign2018.map((faq, faqIndex) => (
+            <li key={faqIndex}>
+              <p className="lg:text-md text-sm text-gray-100">{faq}</p>
+            </li>
+          ))}
+        </ul>
+      </Container>
+      <Container>
+        <div className="mt-10 max-w-4xl border-t border-gray-50 pt-10 lg:mx-0">
+          <h2 className="text-3xl font-medium tracking-tight text-gray-50">
+            SAE Aerodesign 2017
+          </h2>
+          <p className="text-md mt-2 text-gray-100">
+            The team consisted of 14 members from the branches of mechanical and
+            electronics engineering. The aircraft was designed and built from
+            scratch by the team members without any external guidance. The
+            competiton was held at Van Nuys,CA,USA.
+          </p>
+        </div>
+        <ul
+          role="list"
+          className="mt-5 grid max-w-2xl grid-cols-1 gap-4 sm:mt-10"
+        >
+          {aerodesign2017.map((faq, faqIndex) => (
+            <li key={faqIndex}>
+              <p className="lg:text-md text-sm text-gray-100">{faq}</p>
             </li>
           ))}
         </ul>

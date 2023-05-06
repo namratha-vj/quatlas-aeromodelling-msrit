@@ -106,7 +106,7 @@ export function Header() {
                           className="absolute inset-x-0 top-0 z-0 origin-top rounded-b-2xl bg-slate-900 px-6 pb-6 pt-32 shadow-2xl shadow-gray-900/20"
                         >
                           <div className="space-y-4">
-                            <MobileNavLink href="#about">
+                            <MobileNavLink href="/team">
                               About Team
                             </MobileNavLink>
                             <MobileNavLink href="#sponsors">

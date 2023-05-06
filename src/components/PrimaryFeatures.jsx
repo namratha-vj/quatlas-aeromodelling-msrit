@@ -13,14 +13,14 @@ export function PrimaryFeatures() {
     <section
       id="about"
       aria-label="Features for investing all your money"
-      className="bg-primary py-10 sm:py-16"
+      className="py-10 sm:py-16 bg-slate-900"
     >
       <Container>
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
           <h2 className="text-3xl font-medium tracking-tight text-white">
             Introduction
           </h2>
-          <p className="mt-2 text-lg text-gray-200">
+          <p className="text-md mt-2 text-gray-200 lg:text-xl">
             Quatlas is an official aeromodelling team of RIT. We participate in
             the SAE Aero Design Competition held at the USA annually. We are
             looking for motivated & talented students to recruit to the team &
