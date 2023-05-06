@@ -56,8 +56,8 @@ export function Header() {
             <div className="lg:flex">
               <Link href="/" aria-label="Home">
                 <img
-                  src="https://user-images.githubusercontent.com/71520844/236511577-e871fdf9-14ea-459f-ae3e-967ac201b8c5.png"
-                  className="h-12 w-auto object-contain lg:h-16"
+                  src="https://user-images.githubusercontent.com/94772842/236621312-1ea77d1c-c541-4a08-9264-10f3cf78c7ed.png"
+                  className="flex h-12 w-auto object-contain lg:h-16"
                   alt="Quatlas Logo"
                 />
               </Link>
