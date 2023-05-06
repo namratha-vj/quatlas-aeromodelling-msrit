@@ -33,9 +33,21 @@ module.exports = {
         '4xl': '2rem',
         '5xl': '2.5rem',
       },
-      colors: ({ colors }) => ({
-        gray: colors.neutral,
-      }),
+      // colors: ({ colors }) => ({
+      //   gray: colors.neutral,
+      // }),
+      colors: {
+        primary: '#050816',
+        secondary: '#F2F2F2',
+        tertiary: '#F2F2F2',
+        quaternary: '#F2F2F2',
+        quinary: '#F2F2F2',
+        senary: '#F2F2F2',
+        septenary: '#F2F2F2',
+        octonary: '#F2F2F2',
+        nonary: '#F2F2F2',
+        denary: '#F2F2F2',
+      },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },

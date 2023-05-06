@@ -14,10 +14,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pocket - Invest at the perfect time.</title>
+        <title>Quatlas | Aeromodelling MSRIT</title>
         <meta
           name="description"
-          content="By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses."
+          content="Team Quatlas is the official aeromodelling team of RIT participating in SAE Aero design competition."
+        />
+        <meta
+          name="keywords"
+          content="Quatlas, Aeromodelling in RIT, Quatlas Ramaiah"
         />
       </Head>
       <Header />
