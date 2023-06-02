@@ -109,6 +109,9 @@ export function Header() {
                             <MobileNavLink href="/team">
                               About Team
                             </MobileNavLink>
+                            <MobileNavLink href="/achievements">
+                              Achievements
+                            </MobileNavLink>
                             <MobileNavLink href="#sponsors">
                               Sponsors
                             </MobileNavLink>

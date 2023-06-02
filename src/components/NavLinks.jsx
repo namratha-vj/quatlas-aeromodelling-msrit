@@ -7,6 +7,7 @@ export function NavLinks() {
 
   return [
     ['About Team', '/team'],
+    ['Achievements', '/achievements'],
     ['Sponsors', '#sponsors'],
     ['Gallery', '#gallery'],
     ['Contact Us', '#contact'],
