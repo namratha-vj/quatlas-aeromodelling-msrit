@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import { useEffect } from 'react';  
-
+import { useEffect } from 'react'
 import { CallToAction } from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -12,8 +11,9 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 
 export default function Home() {
   useEffect(() => {
-    window.location.href = "https://quatlas.web.app/";
-  },[]);
+    window.location.href = 'https://quatlas.web.app/'
+  }, [])
+
   return (
     <>
       <Head>
